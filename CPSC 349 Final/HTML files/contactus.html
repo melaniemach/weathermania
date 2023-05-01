@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHERMANIA</title>
+    <link rel="stylesheet" href="../CSS files/reset.css">
+    <link rel="stylesheet" type="text/css" href="../CSS files/style.css">
+    <link rel="stylesheet" type="text/css" href="../CSS files/form.css">
+  </head>
+  <body> 
+    <header class="header-main">
+      <div class="header-main-logo">
+        <img src="../Images/CLOUDYSUN.png" alt="logo" size>
+        <div class="company-name">WEATHERMANIA</div>
+        <nav class="header-main-nav">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="search.html">SEARCH</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+        <form method="POST">
+            <div class="form-header">
+                <h3>Contact us</h3>
+                <h4>Please fill out this form!</h4>
+            </div>
+        
+            <!--Heading for login form-->
+            <div class="form-container">
+                <!--First and last name-->
+                <label for="fname">First Name</label>
+                <input type="text" name="firstname" placeholder="Enter Your First Name" class="textbox" id="firstname"  required> 
+                <!--Email-->
+                <label for="email">Email</label>
+                <input type="text" name="email" placeholder="Enter Your Email" class="textbox" id="email" required> <br>
+                <!--Comments-->
+                <label for="comment">Comment</label>
+                <textarea id="message" name="message" rows="5" cols="50"></textarea>
+                <!--Submit button-->
+                <button type="submit" class="button" value="Submit">Submit</button>
+            </div> 
+        </form>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2023 WEATHERMANIA. All rights reserved.</p>
+    </footer>
+    </body>
+</html>     
