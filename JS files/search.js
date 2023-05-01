@@ -27,7 +27,14 @@ weatherForm.addEventListener('submit', function(event) {
       const feelsLike = data.main.feels_like;
       const humidity = data.main.humidity;
       const wind = data.wind.speed;
-
+      const timezone = data.timezone;
+      
+      // Use the timezone to get the current time
+      const currentTime = timezone ? new Date(Date.now() + (timezone * 1000)) : new Date();
+    
+      // Get the current date
+      const currentDate = currentTime.toLocaleDateString('en-US', {timeZone: 'UTC'});
+      
       // Create a new entry and add it to the result list
       const newItem = document.createElement('div');
       newItem.classList.add('result-item');
@@ -38,7 +45,8 @@ weatherForm.addEventListener('submit', function(event) {
             <p>Current Temperature: ${temp}&deg;F</p>
             <p>Feels Like: ${feelsLike}&deg;F</p>
             <p>Humidity: ${humidity}%</p>
-             <p>Wind: ${wind} mph</p>
+            <p>Wind: ${wind} mph</p>
+            <p>Last Time Updated: ${currentDate}, ${currentTime.toLocaleTimeString('en-US', {timeZone: 'UTC'})} PT</p>
          </div>
          <button class="remove-button">Remove</button>
        </div>
