@@ -6,7 +6,7 @@ Melanie Mach
 melaniemach@csu.fullerton.edu
 
 Anthony Vences
-@csu.fullerton.edu
+avences@csu.fullerton.edu
 
 
 About:
