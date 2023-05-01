@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../CSS files/reset.css">
     <link rel="stylesheet" type="text/css" href="../CSS files/style.css">
     <link rel="stylesheet" type="text/css" href="../CSS files/search.css">
+    
   </head>
   <body> 
     <header class="header-main">
@@ -27,40 +28,20 @@
 
     <section class="top-banner">
         <div class="container">
-          <form>
-            <input type="text" placeholder="search for a city" >
-            <button type="submit">SUBMIT</button>
-            <span class="msg"></span>
-          </form>
+          <form id="weather-form">
+            <input type="text" id="city" name="city" placeholder="Enter city name" required>
+            <button type="submit">Search</button>
+          </form>          
         </div>
       </section>
 
-      <section class="weather-cards">
-        <div class="container">
-          <div class="card">
-            <h2 class="card-title">Fullerton</h2>
-            <div class="card-body">
-              <p>Current Temperature: 75°F</p>
-              <p>Feels Like: 72°F</p>
-              <p>Humidity: 45%</p>
-              <p>Wind: 5 mph</p>
-            </div>
-          </div>
-          <div class="card">
-            <h2 class="card-title">Los Angeles</h2>
-            <div class="card-body">
-              <p>Current Temperature: 65°F</p>
-              <p>Feels Like: 62°F</p>
-              <p>Humidity: 60%</p>
-              <p>Wind: 10 mph</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      
+      <div class="results-container">
+        <div id="result-list"></div>
+      </div>
 
       <footer>
         <p>&copy; 2023 WEATHERMANIA. All rights reserved.</p>
       </footer>
   </body>
+  <script src="../JS files/search.js"></script>
 </html>

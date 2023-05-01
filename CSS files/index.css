@@ -11,7 +11,7 @@ h1 {
     font-size: 48px; 
     margin-bottom: 32px; 
     padding: 20px;
-    background-image:url(../images/0fd3416c.jpeg);
+    background-image:url(../Images/weather.jpeg);
 }
 
 /* Style for the sub 1 heading */
@@ -64,7 +64,7 @@ button {
 
 .get-started-options a {
   text-decoration: none;
-  color: #000;
+  color: #ffffff;
   display: block;
   padding: 10px;
   background-color: #091b3c;
@@ -73,5 +73,4 @@ button {
   margin-bottom: 20px;
   width: calc(50% - 10px);
   text-align: center;
-  background-color: rgba(134, 139, 244, 0.1);
 }
