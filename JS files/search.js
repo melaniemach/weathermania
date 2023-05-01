@@ -17,7 +17,7 @@ weatherForm.addEventListener('submit', function(event) {
   fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`)
     .then(response => {
       if (!response.ok) {
-        throw new Error('Unable to get weather data for the entered city. Please try again.');
+        throw new Error('Please enter valid city (e.g. Fullerton or fullerton).');
       }
       return response.json();
     })
