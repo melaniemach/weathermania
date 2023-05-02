@@ -1,11 +1,11 @@
-/* Styles for the top banner */
+/* Styles for the search bar */
 .top-banner form {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin-top: 5px;
 }
-
+/* Search bar input */
 .top-banner form input[type="text"] {
   font-size: 15px;
   padding: 20px;
@@ -17,7 +17,7 @@
   opacity: 0.5;
   margin-right: 10px;
 }
-
+/* Search bar button */
 .top-banner form button[type="submit"] {
   font-size: 18px;
   padding: 12px 30px;
@@ -27,7 +27,7 @@
   color: #fff;
   cursor: pointer;
 }
-
+/* Search bar view */
 @media (max-width: 768px) {
   .top-banner form input[type="text"] {
     font-size: 18px;
@@ -40,12 +40,11 @@
   }
 }
 
-/* Styles for the main content */
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 2px;
 }
 
 .form-container {
@@ -66,6 +65,7 @@
   margin-right: 10px;
 }
 
+/* Styles for weather cards */
 .card-container {
   display: flex;
   justify-content: center;
@@ -111,6 +111,7 @@
   font-family: 'Nunito', sans-serif;
 }
 
+/* Misc. styling */
 .heading-container {
   display: flex;
   justify-content: center;
@@ -125,21 +126,6 @@
   text-align: center;
   margin: 0;
   padding: 10px;
-  color: #ffffff;
-  background-color: #092134;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  color: #092134;
   font-family: 'Nunito', sans-serif;
-}
-
-.heading-container h3 {
-  font-size: 28px;
-  font-weight: bold;
-  text-align: center;
-  margin: 0;
-  padding: 10px;
-  color: #000000;
-  text-shadow: 2px 2px #ffffff;
-  font-family: 'Nunito', sans-serif;
-  line-height: 1.2;
 }
