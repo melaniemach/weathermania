@@ -1,14 +1,18 @@
 .about-us-header {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
-  height: 100vh;
+  margin: 100px;
+
 }
 
 .about-us-header h1 {
   font-size: 48px;
   margin: 20px auto 0;
+}
+
+.about-us-header h2 {
+    font-size: 18px;
 }
 
 .about-us-images {
@@ -23,17 +27,20 @@
     width: 48%;
 }
   
-  
 .about-us-image img {
     width: 80%;
     max-width: 300px;
     margin: 20px auto 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
 }
   
 .about-us-text {
     padding: 10px;
-    background-color: #f2f2f2;
-    border-radius: 10px;
+    background-color: #a9c1d4;
+    color: #ffffff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
     margin-top: 20px;
     flex-grow: 1;
 }
@@ -49,5 +56,8 @@
 @media only screen and (max-width: 600px) {
     .about-us-image {
         width: 80%;
+
     }
 }
+
+  
