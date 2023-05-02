@@ -9,7 +9,7 @@ weatherForm.addEventListener('submit', function(event) {
 
   // Get the form input value
   const cityInput = document.getElementById('city');
-  const city = cityInput.value;
+  const city = cityInput.value.toLowerCase().replace(/\b(\w)/g, s => s.toUpperCase());
   
   console.log(city);
 
