@@ -46,7 +46,7 @@ weatherForm.addEventListener('submit', function(event) {
             <p>Feels Like: ${feelsLike}&deg;F</p>
             <p>Humidity: ${humidity}%</p>
             <p>Wind: ${wind} mph</p>
-            <p>Last Time Updated: ${currentDate}, ${currentTime.toLocaleTimeString('en-US', {timeZone: 'UTC'})} PT</p>
+            <p>Last Time Updated: ${currentDate}, ${currentTime.toLocaleTimeString('en-US', {timeZone: 'UTC'})}</p>
          </div>
          <button class="remove-button">Remove</button>
        </div>
