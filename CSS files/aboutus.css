@@ -1,0 +1,53 @@
+.about-us-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.about-us-header h1 {
+  font-size: 48px;
+  margin: 20px auto 0;
+}
+
+.about-us-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.about-us-image {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+  
+  
+.about-us-image img {
+    width: 80%;
+    max-width: 300px;
+    margin: 20px auto 0;
+}
+  
+.about-us-text {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-top: 20px;
+    flex-grow: 1;
+}
+  
+.antwon {
+    order: 2;
+}
+  
+.antwon-text {
+    order: 1;
+}
+  
+@media only screen and (max-width: 600px) {
+    .about-us-image {
+        width: 80%;
+    }
+}
