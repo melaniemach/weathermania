@@ -23,7 +23,7 @@
   padding: 12px 30px;
   border: none;
   border-radius: 5px;
-  background-color: #092134;
+  background-color: #a9c1d4;
   color: #fff;
   cursor: pointer;
 }
@@ -85,6 +85,7 @@
   margin: 20px;
   float: left;
   max-width: 300px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .card-title {
@@ -114,13 +115,11 @@
   text-align: center;
   margin: 0;
   padding: 10px;
-  color: #092134;
-  background-color: rgba(9, 11, 51, 0.2);
+  color: #ffffff;
+  background-color: #092134;
   border-radius: 5px;
-  box-shadow: 0px 2px 5px rgba(93, 92, 92, 0.16);
-  text-shadow: 2px 2px #ffffff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
   font-family: 'Nunito', sans-serif;
-  line-height: 1.2;
 }
 
 .heading-container h3 {
@@ -129,10 +128,7 @@
   text-align: center;
   margin: 0;
   padding: 10px;
-  color: #092134;
-  
-  border-radius: 5px;
-  
+  color: #000000;
   text-shadow: 2px 2px #ffffff;
   font-family: 'Nunito', sans-serif;
   line-height: 1.2;
